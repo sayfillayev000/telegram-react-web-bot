@@ -1,5 +1,5 @@
 import { totalPrice } from "../../units/total-price";
-import Button from '../button/Button.jsx';
+import Button from '../button/Button';
 import "./cart.css";
 
 const Cart = ({ cardItems,onCheckout }) => {
