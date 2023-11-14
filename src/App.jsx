@@ -4,7 +4,7 @@ import Cart from "./components/cart/Cart";
 import { getData } from "./constants/db";
 
 const telegram = window.Telegram.WebApp;
-
+//sdrwtrhytjyj
 const App = () => {
   useEffect(() => {
     telegram.ready();
