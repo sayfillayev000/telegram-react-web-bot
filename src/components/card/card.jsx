@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./card.css";
-import Button from "../button/button";
+import Button from '../button/Button.jsx';
 const index = ({ course, onAddItem, onRemoveItem }) => {
   const [count, setCount] = useState(0);
   const hendleIncrement = () => {
